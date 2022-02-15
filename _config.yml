@@ -1,6 +1,6 @@
 # Site settings
 title: Zzi`s Laboratory
-description: '개발자 Zzi의 스터디&실험실'
+description: 'Zzi의 스터디&실험실'
 url: ''
 baseurl: ''
 # google_analytics: 'UA-XXXXXX-X'
@@ -13,7 +13,7 @@ author:
   twitter_username: zzi
   facebook_username: zzi
   github_username:  zzi
-  linkedin_username:  zzi
+  linkedin_username:  foreverwin_zzi
 
 defaults:
   -
