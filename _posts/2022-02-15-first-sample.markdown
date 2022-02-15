@@ -2,10 +2,7 @@
 title:  "First sample from notion"
 date:   2022-02-15 15:04:23
 categories: [Post]
-tags:
-- sample
-- post
-- notion
+tags: [Notion]
 ---
 # 코딩 테스트 1번
 
