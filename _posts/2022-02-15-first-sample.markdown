@@ -1,8 +1,8 @@
 ---
-title:  "First sample from notion"
-date:   2022-02-15 15:04:23
-categories: [Post]
-tags: [Notion]
+title:  "Welcome to Jekyll!"
+date:   2016-01-08 15:04:23
+categories: [jekyll]
+tags: [jekyll]
 ---
 # 코딩 테스트 1번
 
