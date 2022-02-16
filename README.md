@@ -3,7 +3,7 @@
 GitHub Page & jekyll free theme [jekyll-Uno](https://github.com/joshgerdes/jekyll-uno)
 
 ## Launch
-'bundle exec jekyll serve'
+Start local server: `bundle exec jekyll serve`
 
 ---
 ### Copyright and license
