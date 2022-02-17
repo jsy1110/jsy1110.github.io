@@ -7,7 +7,7 @@ tags:
 - notion
 - dev
 ---
-# 무엇을 쓸 것인가?
+## 무엇을 쓸 것인가?
 
 네이버 블로그, 티스토리, 브런치, GitHub Page, Notion 까지 사람들이 주로 사용하는 서비스를 고민했다. 최종 선택은 `GitHub Page` 이었는데 선택하기까지의 생각의 흐름을 정리해봤다.
 
@@ -30,7 +30,7 @@ tags:
 ![Untitled 1](https://user-images.githubusercontent.com/6336815/154431431-c3f459d1-f06a-4045-b8a6-08019a943977.png)
 
 
-# 왜 GitHub Page인가?
+## 왜 GitHub Page인가?
 
 위에 언급했든 GitHub Page는 불편한점이 너무나 많다. 일단 Markdown 문법 사용부터 테마 적용까지 조금이라도 편하게 설치하기 위해서는 Jekyll 사용이 필수적이다. 때문에 GitHub Page 소개란에 보면 [Jekyll 을 공식적으로 소개](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll)하고 있다. 
 ![Untitled 2](https://user-images.githubusercontent.com/6336815/154431735-0555f52d-3c35-41e6-842e-2e6ef28c387f.png)
