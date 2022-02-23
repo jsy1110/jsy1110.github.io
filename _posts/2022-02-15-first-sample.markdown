@@ -1,7 +1,7 @@
 ---
 title:  "The first sample from notion"
 date:   2022-02-15
-categories: [post]
+categories: [prac]
 tags:
 - post
 - notion
