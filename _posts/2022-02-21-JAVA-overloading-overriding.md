@@ -47,3 +47,23 @@ public class childClass implements superClass {
 
 ![Untitled 3](https://user-images.githubusercontent.com/6336815/155447056-00efd9cd-3833-4d97-b492-dc1191649e6b.png)
 ![Untitled 4](https://user-images.githubusercontent.com/6336815/155447058-87c84dcd-dc92-48b2-91c0-e9b30a40776e.png)
+
+### 추상 클래스(Abstract Class)와 인터페이스(Interface)
+
+- Abstract Class는 다중 상속이 불가능하다!! But, Interface 는 다중 상속(implements)가 가능하다.
+- Abstract Class는 객체 생성을 할 수 없다.
+- But, Abstract Class 내 Abstract method는 Child에서 상속 받을 경우 반드시 구현해야 한다. (Interface는 abstract 를 적지 않아도 반드시 child에서 구현되야함)
+
+```java
+// extends 는 1개의 class만 할 수 있음
+// 부모 class에서 동일한 이름의 method가 있을 경우 어떤 것을 orverriding 해야 하는지 모름
+// 아래는 에러납니다!!!
+public class childClass extends AbstractParent, AbstractParent2 implements superClass {
+	
+	@Override
+	public void go() {
+		// TODO interface에 있는 함수는 반드시 구현되야 함
+		
+	}
+}
+```
