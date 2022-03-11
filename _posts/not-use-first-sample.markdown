@@ -1,12 +1,3 @@
----
-title:  "The first sample from notion"
-date:   2022-02-15
-categories: [prac]
-tags:
-- post
-- notion
-- test
----
 # 코딩 테스트 1번
 
 2개의 Row, N개의 Column 제시.
