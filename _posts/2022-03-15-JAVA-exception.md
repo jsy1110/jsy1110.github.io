@@ -21,10 +21,9 @@ tags:
     - RuntimeException classes : 프로그래머의 실수로 발생하는 예외 `(Runtime, unchecked exception, 예외처리 필수X)`
     - Exception classes : 사용자의 실수와 같은 외적인 요인에 의해 발생하는 예외 `(Compile time, checked exception, 예외처리 필수)`
 
-<aside>
-💡 **단순 JAVA에서 Exception 종류에 따라 transaction rollback이 결정되는 것은 아니다.** 일부 블로그에 unchecked exception은 rollback이 필수라고 되어있는데 이는 Spring에서 제공하는 exception 관련 옵션에서 unchecked exception 처리에 대한 default가 rollback이기 때문에 나오는 오해일 것이다.
 
-</aside>
+💡 **단순 JAVA에서 Exception 종류에 따라 transaction rollback이 결정되는 것은 아니다.**
+일부 블로그에 unchecked exception은 rollback이 필수라고 되어있는데 이는 Spring에서 제공하는 exception 관련 옵션에서 unchecked exception 처리에 대한 default가 rollback이기 때문에 나오는 오해일 것이다.
 
 ![Untitled](https://user-images.githubusercontent.com/6336815/158289345-e62375ef-2bc3-4845-b125-137b7180f137.png)
 
