@@ -30,7 +30,8 @@ tags:
 
 - 객체를 생성하지 않음 (생성자가 없음)
 - `Parent`는 Abstract method 또는 default method 사용. 직접 method `구현 불가`
-- 인터페이스를 상속받아서 구현한 클래스를 객체로 사용
+- abstract 를 붙이지 않아도 자동으로 abstract method로 정의 된다.
+- 단독 개체는 사용 불가. 인터페이스를 상속받아서 구현한 클래스를 객체로 사용
 - `Child`에서는 인터페이스에 정의된 `Abstract method를 반드시 구현`해야함.
 
 ```java
