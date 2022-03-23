@@ -31,7 +31,7 @@ public class NutritionFacts {
     private final int sodium;           // (mg/1회 제공량) 선택
     private final int carbohydrate;     // (g/1회 제공량) 선택
 
-		public NutritionFacts(int servingSize, int servings) {
+	public NutritionFacts(int servingSize, int servings) {
         this(servingSize, servings, 0);
     }
     
@@ -156,7 +156,7 @@ public abstract class Item {
     private int price;
     private int stockQuantity;
 
-		abstract static class Builder<T extends Builder<T>> {
+	abstract static class Builder<T extends Builder<T>> {
         private Long id;
 
         private String name;
