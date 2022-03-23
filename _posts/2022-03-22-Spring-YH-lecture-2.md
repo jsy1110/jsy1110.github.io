@@ -1,6 +1,6 @@
 ---
 title:  "[Spring Boot] 스프링 입문 - 코드로 배우는 스프링 부트, 웹MVC, DB 접근 기술 (인프런) #2 (View, Controller)"
-date:   2022-03-21
+date:   2022-03-22
 categories: [post]
 tags:
 - study
