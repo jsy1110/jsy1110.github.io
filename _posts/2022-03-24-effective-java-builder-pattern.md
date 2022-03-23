@@ -1,6 +1,6 @@
 ---
 title:  "[이펙티브자바] 아이템2 - 빌더 패턴 (Builder pattern) feat.스프링부트 JPA 활용편 (by 김영한)"
-date:   2022-03-23
+date:   2022-03-24 00:05:00 +0900
 categories: [post]
 tags:
 - study

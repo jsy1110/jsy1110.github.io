@@ -1,6 +1,6 @@
 ---
 title:  "[Spring Boot] 실전! 스프링 부트와 JPA 활용1 (feat. 빌더 패턴의 적용) #extra"
-date:   2022-03-24
+date:   2022-03-24 02:00:00 +0900
 categories: [post]
 tags:
 - study
