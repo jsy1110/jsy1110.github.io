@@ -48,3 +48,5 @@ tags:
 ![Untitled 4](https://user-images.githubusercontent.com/6336815/154431906-ea4ec16e-e7b0-4659-962e-d8327cb22a39.png)
 
 ![Untitled 5](https://user-images.githubusercontent.com/6336815/154431970-a9e23f2a-60ea-4331-93df-090d4f9444cc.png)
+
+[개인 블로그 만들기 - Github Page 시작하기 (Jekyll-Uno) #2](https://jsy1110.github.io/2022/make-personal-blog-2/)
