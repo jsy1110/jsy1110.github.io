@@ -1,5 +1,5 @@
 ---
-title:  "[이펙티브자바] 아이템2 - 빌더 패턴 (Builder pattern) feat.스프링부트 JPA 활용편 (by 김영한)"
+title:  "[이펙티브자바] 아이템2 - 빌더 패턴 (Builder pattern) feat.스프링부트 JPA 활용편 (by 김영한) #1"
 date:   2022-03-24 00:05:00 +0900
 categories: [post]
 tags:
@@ -294,4 +294,4 @@ public String create(BookForm form) {
 }
 ```
 
-[[Spring Boot] 실전! 스프링 부트와 JPA 활용1 (feat. 빌더 패턴의 적용) #extra](https://jsy1110.github.io/2022/Spring-JPA-YH-ex/)
+[[이펙티브자바] 아이템2 - 빌더 패턴 (Builder pattern) feat.스프링부트 JPA 활용편 (by 김영한) #2](https://jsy1110.github.io/2022/Spring-JPA-YH-ex/)
