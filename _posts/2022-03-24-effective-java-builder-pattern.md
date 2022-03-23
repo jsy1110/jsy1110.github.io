@@ -4,7 +4,6 @@ date:   2022-03-24
 categories: [post]
 tags:
 - study
-- lecture
 - spring
 - java
 ---
