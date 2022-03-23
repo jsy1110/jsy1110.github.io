@@ -1,5 +1,5 @@
 ---
-title:  "개인 블로그 만들기 #2"
+title:  "개인 블로그 만들기 - Github Page 시작하기 (Jekyll-Uno) #2"
 date:   2022-03-23
 categories: [post]
 tags:
@@ -7,8 +7,6 @@ tags:
 - notion
 - dev
 ---
-# Github Page 시작하기 (Jekyll-Uno)
-
 ### 환경 설정
 
 해당 내용은 window 기준으로 설명되며, 편의성을 위해 [Git bash](https://git-scm.com/downloads) 와 혼용해서 사용했다. 해당 링크에서 다운로드 가능하다.  해당 설명은 Jekyll을 활용하여 테마를 설치하였다.  Github page 공식 사이트에서도 Jekyll 사용을 권장하고 있다. 기본적으로 Jekyll은 Ruby를 쓰기 때문에 설치가 필요하다. 아래 사이트로 이동하여 아래와 같이 Ruby를 설치하고, GCC 설치를 확인한다. ([https://jekyllrb.com/docs/installation/](https://jekyllrb.com/docs/installation/))
