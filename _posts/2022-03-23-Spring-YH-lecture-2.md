@@ -13,7 +13,7 @@ tags:
 
 Controller에서 리턴 값으로 String을 반환할 경우 viewResolver에 의해서 자동으로 페이지를 연결해준다. 아래 예시 코드의 경우 home.html파일을 찾아서 연결해준다.`(resources/templates/{viewName}.html)` 
 
-![Untitled 1](https://user-images.githubusercontent.com/6336815/159613932-dfd30bc4-0704-4e52-ad6a-9e2741051dd7.png)
+![Untitled](https://user-images.githubusercontent.com/6336815/159613934-285dd594-135e-4e54-a011-6aaff7006b2b.png)
 
 ```java
 @Controller
@@ -52,7 +52,8 @@ public String create(MemberForm form) {
 
 Request에서 Parameter가 있을 경우 `@RequestParam` 을 이용해서 처리할 수 있다. 위에 설명한대로 return의 경우 String을 return 하여 정적페이지로 연결할 수도 있다. 하지만 `@ResonseBody` annotation을 이용하여 객체를 직접 return 하게 되면 해당 객체를 JSON으로 변환하여 response 를 날리게 된다. 물론 Model 클래스가 아닌 자료형을 직접 반환할 수도 있다. return 시 사용 하는 객체는 getter, setter 등의 Java 전통 Model 의 형태를 갖춰야 한다. (like JAVA bean) 이를 `API 방식`으로 볼 수 있다.
 
-![Untitled](https://user-images.githubusercontent.com/6336815/159613934-285dd594-135e-4e54-a011-6aaff7006b2b.png)
+![Untitled 1](https://user-images.githubusercontent.com/6336815/159613932-dfd30bc4-0704-4e52-ad6a-9e2741051dd7.png)
+
 
 ```java
 @GetMapping("hello-string")
