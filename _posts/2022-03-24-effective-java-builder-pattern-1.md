@@ -294,4 +294,8 @@ public String create(BookForm form) {
 }
 ```
 
-[[이펙티브자바] 아이템2 - 빌더 패턴 (Builder pattern) feat.스프링부트 JPA 활용편 (by 김영한) #2](https://jsy1110.github.io/2022/Spring-JPA-YH-ex/)
+[[이펙티브자바] 아이템2 - 빌더 패턴 (Builder pattern) feat.스프링부트 JPA 활용편 (by 김영한) #1](https://jsy1110.github.io/2022/effective-java-builder-pattern-1/)
+
+[[이펙티브자바] 아이템2 - 빌더 패턴 (Builder pattern) feat.스프링부트 JPA 활용편 (by 김영한) #2](https://jsy1110.github.io/2022/effective-java-builder-pattern-2/)
+
+[[이펙티브자바] 아이템2 - 빌더 패턴 (Builder pattern) feat.스프링부트 JPA 활용편 (by 김영한) #3](https://jsy1110.github.io/2022/effective-java-builder-pattern-3/)
