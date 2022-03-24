@@ -43,6 +43,7 @@ public abstract class Item {
 ```java
 @Entity
 @DiscriminatorValue("B")
+@Getter
 @SuperBuilder
 public class Book extends Item {
     private String author;
