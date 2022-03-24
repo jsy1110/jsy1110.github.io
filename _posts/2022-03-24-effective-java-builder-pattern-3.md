@@ -24,16 +24,16 @@ public String list(Model model) {
 ```java
 // 생성자가 없는 클래스
 public class Dog {
-		private String name;
-		private int age;
-		private int weight;
+	private String name;
+	private int age;
+	private int weight;
 }
 
 public class main {
 
-		public static void main(String[] args) {
-				Dog dog = new Dog(); // 기본 생성자
-		}
+    public static void main(String[] args) {
+        Dog dog = new Dog(); // 기본 생성자
+    }
 }
 ```
 
