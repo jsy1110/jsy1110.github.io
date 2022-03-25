@@ -54,7 +54,7 @@ public class main {
 
  결론을 내보면 아래와 같다.
 
-- `@Builder`는 로직상 전체 args의 값을 세팅하는 `@AllArgsConstructor` 로직을 필요로 한다. 실제로 @Builder 를 세팅하는 로직에는 해당 로직이 포함되어 있을 것이다. 그런데 사용자가 직접 `@NoArgsConstructor` 를 세팅하게 되면서 `@Builder`에서 정의한 `@AllArgsConstructor`* 이 삭제 되었다. 그렇기 때문에 컴파일 오류를 발생시켰을 것이다.
+- `@Builder`는 로직상 전체 args의 값을 세팅하는 `@AllArgsConstructor` 로직을 필요로 한다. 실제로 @Builder 를 세팅하는 로직에는 해당 로직이 포함되어 있을 것이다. 그런데 사용자가 직접 `@NoArgsConstructor` 를 세팅하게 되면서 `@Builder`에서 정의한 `@AllArgsConstructor` 이 삭제 되었다. 그렇기 때문에 컴파일 오류를 발생시켰을 것이다.
 - @SuperBuilder는 protected constructor를 생성하지만 매개변수 자체가 Builder 인스턴스 이다. `@NoArgsConstructor` annotation은 Builder 인스턴스를 갖는 constructor에 대한 영향이 없다. 그렇기 때문에 `@NoArgsConstructor` 단독으로 사용해도 `@SuperBuilder` 동작에는 문제가 없었을 것이다.
 
 ```java
