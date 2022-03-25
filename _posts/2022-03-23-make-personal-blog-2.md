@@ -1,11 +1,11 @@
 ---
-title:  "개인 블로그 만들기 - Github Page 시작하기 (Jekyll-Uno) #2"
+title:  "[Github Page] 개인 블로그 만들기 - Github Page 시작하기 (Jekyll-Uno) #2"
 date:   2022-03-23
 categories: [post]
 tags:
 - post
+- blog
 - notion
-- dev
 ---
 ### 환경 설정
 

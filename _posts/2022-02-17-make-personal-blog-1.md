@@ -1,11 +1,11 @@
 ---
-title:  "개인 블로그 만들기 - 무엇을 쓸 것인가? #1"
+title:  "[Github Page] 개인 블로그 만들기 - 무엇을 쓸 것인가? #1"
 date:   2022-02-17
 categories: [post]
 tags:
 - post
+- blog
 - notion
-- dev
 ---
 ## 무엇을 쓸 것인가?
 
