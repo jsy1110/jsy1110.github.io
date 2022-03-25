@@ -38,25 +38,7 @@ google_analytics: 'UA-22XXXXXXX'
 
 만약 본인이 사용중인 테마의 `_config.yml` 파일에 GA 설정이 없다면 직접 GA 관련 파일을 추가해줘야 한다. Jekyll-uno 의 `_includes/footer.html` 파일을 보면 아래와 같이 GA를 자동으로 생성해주는 코드가 들어있다.  이렇게 적용 된 GA는 크롬 등의 브라우저에서 개발자 도구로 확인할 수 있다. 아래 개발자 도구의 콘솔 화면은 크롬에서 [Google Analytics 확장 프로그램](https://chrome.google.com/webstore/detail/google-analytics-debugger/jnkmfdileelhofjcijamephohjechhna?hl=ko)을 설치하여 볼 수 있다.
 
-```html
-<footer class="footer">
-  <span class="footer__copyright">&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. All rights reserved.</span>
-</footer>
-
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script type="text/javascript" src="{{ site.baseurl }}/js/main.js?{{site.time | date: '%s%N'}}"></script>
-{% if site.google_analytics and jekyll.environment != "development" %}
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', '{{ site.google_analytics }}', 'auto');
-  ga('send', 'pageview');
-</script>
-{% endif %}
-```
+![image](https://user-images.githubusercontent.com/6336815/160146736-f7f7f5f7-ff03-4fbd-8e34-f6a7fe3e84aa.png)
 
 ![Untitled 3](https://user-images.githubusercontent.com/6336815/160074047-7197f1e2-a31d-4ee2-ad7d-d2707d6f3a63.png)
 
