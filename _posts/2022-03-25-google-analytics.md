@@ -31,7 +31,7 @@ Jekyll-uno 의 경우 `_config.yml` 파일 google_analytics 속성에 복사한 
 # Site settings
 title: Zzi`s Laboratory
 description: 'Development & Study'
-url: ''
+url: 'https://jsy1110.github.io/'
 baseurl: ''
 google_analytics: 'UA-22XXXXXXX'
 ```
