@@ -50,7 +50,7 @@ public class main {
 
 위의 문제는 확인 결과 `@Builder`와 `@SuperBuilder` 의 차이점이 있었다. 실제로 `@Builder`의 경우 `@NoArgsConstructor` 만 썼을 경우 컴파일 단계에서 `Lombok @Builder needs a proper constructor for this class` 메시지의 오류를 발생시킨다. 그렇기 때문에 `@AllArgsConstructor` 를 추가하여 컴파일 오류를 방지해야 한다. 반대로 `@SuperBuilder` 의 경우 [Lombok 공식홈페이지 설명](https://projectlombok.org/features/experimental/SuperBuilder)을 보면 constructor 생성 방식이 위에 설명한 `@Builder` 와 다르게 builder 인스턴스를 매개변수로 갖는 constructor를 생성하는 것을 알 수 있다.
 
-`*@SuperBuilder` generates a protected constructor on the class that takes a builder instance as a parameter. This constructor sets the fields of the new instance to the values from the builder.*
+*`@SuperBuilder` generates a protected constructor on the class that takes a builder instance as a parameter. This constructor sets the fields of the new instance to the values from the builder.*
 
  결론을 내보면 아래와 같다.
 
