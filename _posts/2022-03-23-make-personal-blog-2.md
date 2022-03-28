@@ -1,5 +1,5 @@
 ---
-title:  "[Github Page] 개인 블로그 만들기 - Github Page 시작하기 (Jekyll-Uno) #2"
+title:  "[Github Page] 개인 블로그 만들기 - Github Page 시작하기 (Jekyll-Uno)"
 date:   2022-03-23
 categories: [post]
 tags:
