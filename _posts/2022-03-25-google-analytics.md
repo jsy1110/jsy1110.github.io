@@ -1,5 +1,5 @@
 ---
-title:  "[Github Page] Google Analytics로 블로그 방문자 관리하기 #3"
+title:  "[Github Page] Google Analytics로 블로그 방문자 관리하기"
 date:   2022-03-25 16:00:00 +0900
 categories: [post]
 tags:
