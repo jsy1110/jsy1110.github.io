@@ -49,7 +49,7 @@ gem "webrick", "~> 1.7"
 gem 'jekyll-sitemap'
 ```
 
-1. `**_config.yml` 파일 url에 본인의 블로그 주소를 등록하고 jekyll-plug인 추가** 
+2. `**_config.yml` 파일 url에 본인의 블로그 주소를 등록하고 jekyll-plug인 추가** 
 
 ```tsx
 url: "https://jsy1110.github.io" # the base hostname & protocol for your site
@@ -59,7 +59,7 @@ plugins:
 
 ![Untitled 6](https://user-images.githubusercontent.com/6336815/160339445-08002a6a-7f19-4e2b-b5c0-497d3b1fd82b.png)
 
-1. **`robots.txt` 파일 작성**
+3. **`robots.txt` 파일 작성**
 
 repository 루트에 robots.txt 를 추가하여 아래와 같이 sitemap을 추가하여 작성한다.
 
@@ -70,16 +70,23 @@ Allow: /
 Sitemap: [https://jsy1110.github.io/sitemap.xml](https://jsy1110.github.io/sitemap.xml)
 ```
 
-1. **Build 후 파일 생성 확인**
+4. **Build 후 파일 생성 확인**
 
 `bundle exec jekyll serve` 명령어를 통해 로컬 폴더에 `sitemap.xml`이 생성된것을 확인한다. 빌드시 해당 폴더 의 `_site 폴더`에 빌드된 파일이 생성된다. 생성된 파일은 `http://localhost:4000/sitemap.xml` 에 접속해보면 확인할 수 있다.
 
 ![Untitled 7](https://user-images.githubusercontent.com/6336815/160339446-282d7eff-f127-446f-8fde-c3cc556c4149.png)
 ![Untitled 8](https://user-images.githubusercontent.com/6336815/160339449-057da662-91a6-439a-9b17-96f0a924319b.png)
 
-1. **변경사항 배포(Commit&Push), XML 파일 업로드**
+5. **변경사항 배포(Commit&Push), XML 파일 업로드**
 
-여기까지 완료가 되었다면 변경사항을 다시 한번 배포 한 후 Google Search Console 에서 Sitemap을 추가해준다.
+여기까지 완료가 되었다면 변경사항을 다시 한번 배포 한 후 Google Search Console 에서 Sitemap을 추가해준다. sitemap에 추가되는 html 페이지들의 태그에 `noindex`가 있는 경우 검색에서 제외한다는 의미이다. 오류가 발생할 경우 해당 부분도 체크해본다.
+
+```tsx
+---
+layout: default
+robots: noindex
+---
+```
 
 *현재는 해당 사이트 또한 아래와 같이 오류가 발생한 상태이다. 구글링 결과 색인 생성 후 sitemap을 다시 등록하고 [기다리면 해결되는 경우](https://maejinkim.github.io/%EB%B8%94%EB%A1%9C%EA%B7%B8/%EA%B2%80%EC%83%89%EC%B6%94%EA%B0%80/)가 있다고 한다. (실제로 구문오류가 있는 sitemap.xml과 정상 sitemap.xml 파일을 바꿔가면서 올려봤는데 오류 내용은 바뀌지 않았다. **(해당 부분은 추후 업데이트 예정)***
 
