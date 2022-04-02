@@ -1,5 +1,5 @@
 ---
-title:  "[Spring Boot] 스프링 입문 - 코드로 배우는 스프링 부트, 웹MVC, DB 접근 기술 (Repository) #4 (Repository)"
+title:  "[Spring Boot] 스프링 입문 - 코드로 배우는 스프링 부트, 웹MVC, DB 접근 기술 (인프런) #4 (Repository)"
 date:   2022-04-02 23:00:00 +0900
 categories: [post]
 tags:
@@ -7,8 +7,6 @@ tags:
 - lecture
 - spring
 ---
-# Repository 구현
-
 ### 1. 메모리 클래스 사용
 
 앞에서 본것과 같이 멤버 리포지토리는 Interface로 구성하여 향후 사용하는 DB에 따라 구현 클래스를 변경한다. 멤버 리포지토리의 interface는 아래와 같이 정의했다. 당연한 이야기지만 향후에 어떤 DB를 사용해서 구현하든 아래의 메서드는 반드시 구현되어야 한다.
@@ -65,7 +63,7 @@ public class MemoryMemberRepository implements MemberRepository {
 }
 ```
 
-먼저 Memory를 이용해서 간단한 회원 클래스를 정의했다. 인텔리J를 사용하면 최초에 MemberRepository를 implements 하도록 클래스의 껍데기만 만들어주면 자동으로 구현해야할 인터페이스의 메서드들의 껍데기를 만들어준다. 
+먼저 Memory를 이용해서 간단한 회원 클래스를 정의했다. 인텔리J를 사용하면 최초에 MemberRepository를 implements 하도록 클래스만 만들어주면 자동으로 구현해야할 인터페이스의 메서드들의 껍데기를 만들수 있도록 해준다. 
 
 ![Animation](https://user-images.githubusercontent.com/6336815/161395497-1a990617-bb3c-4a51-bf7f-cef52132714f.gif)
 
