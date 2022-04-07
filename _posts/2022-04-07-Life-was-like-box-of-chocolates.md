@@ -12,7 +12,7 @@ tags:
 
 `“인생은 초콜릿 상자와 같다. 당신이 무엇을 얻게 될지 결코 알 수 없다”`
 
-`“Life was like a box of chocolates. You never know what you`re gonna get”`
+`“Life was like a box of chocolates. You never know what you're gonna get”`
 
 ![forrest-gump-my-momma-always-said-life-was-like-a-box-of-chocolates](https://user-images.githubusercontent.com/6336815/162216449-e4e14bb2-8688-46ad-ba96-fac7b85a78de.gif)
 
