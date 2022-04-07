@@ -10,9 +10,7 @@ tags:
 
 나는 기본적으로 살면서 인생의 방향에 대한 결정은 스스로 하는 편이었다. 하지만 인생의 중요한 순간들마다 주변 사람들의 의견을 듣는것을 마다하지 않다. 어떤 조언들은 아직까지도 내 인생에 큰 영향을 미치고 있다. 뻔한 이야기지만 결국 모든 조언은 내가 중심이 되어야 한다. 그리고 그 조언이 맞던 틀리던 그 책임은 본인이 지는 것이다. 문제는 아무리 좋은 조언이어도 그 당시에는 맞고, 틀린 것을 판단할수가 없다. 결국 그 평가는 미래의 내가 하게 될 것이고, 그 선택에 대한 책임도 미래의 내가 지게 된다. 다만 그 선택이 내가 가려는 방향에 맞는지 고민해보는것이 최선이다.
 
-`“인생은 초콜릿 상자와 같다. 당신이 무엇을 얻게 될지 결코 알 수 없다”`
-
-`“Life was like a box of chocolates. You never know what you're gonna get”`
+> “Life was like a box of chocolates. You never know what you`re gonna get”
 
 ![forrest-gump-my-momma-always-said-life-was-like-a-box-of-chocolates](https://user-images.githubusercontent.com/6336815/162216449-e4e14bb2-8688-46ad-ba96-fac7b85a78de.gif)
 
