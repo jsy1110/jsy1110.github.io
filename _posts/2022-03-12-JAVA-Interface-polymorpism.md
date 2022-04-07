@@ -3,8 +3,8 @@ title:  "[JAVA] 인터페이스를 이용한 다중상속 (다형성)"
 date:   2022-03-11
 categories: [post]
 tags:
-- post
-- dev
+- all
+- study
 - java
 ---
 ### JAVA의 다중상속

@@ -3,8 +3,8 @@ title:  "JPA는 MyBatis를 완전히 대체할 수 있을까?"
 date:   2022-04-03 03:00:00 +0900
 categories: [post]
 tags:
+- all
 - post
-- blog
 - article
 ---
 

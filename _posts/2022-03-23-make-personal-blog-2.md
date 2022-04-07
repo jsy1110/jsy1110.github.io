@@ -3,9 +3,9 @@ title:  "[Github Page] 개인 블로그 만들기 - Github Page 시작하기 (Je
 date:   2022-03-23
 categories: [post]
 tags:
+- all
 - post
 - blog
-- notion
 ---
 ### 환경 설정
 

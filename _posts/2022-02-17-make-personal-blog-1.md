@@ -3,9 +3,8 @@ title:  "[Github Page] 개인 블로그 만들기 - 무엇을 쓸 것인가?"
 date:   2022-02-17
 categories: [post]
 tags:
-- post
+- all
 - blog
-- notion
 ---
 ## 무엇을 쓸 것인가?
 

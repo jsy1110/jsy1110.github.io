@@ -3,9 +3,10 @@ title:  "[이펙티브자바] 아이템2 - 빌더 패턴 (Builder pattern) feat.
 date:   2022-03-24 00:05:00 +0900
 categories: [post]
 tags:
+- all
 - study
-- spring
 - java
+- effective java
 ---
 
 이번 포스트에서는 이펙티브 자바에 나온 빌더 패턴을 설명하고, 이를 이용해서 김영한 님의 인프런 강의 실전 스프링부트 JPA 활용 1편 에 나온 코드를 빌더 패턴을 이용해서 재작성 해보았다. 그리고 마지막으로는 Lombok의 @Builder, @SuperBuilder Annotation을 이용해서 Builder 패턴을 더욱 쉽게 이용하는 방법을 소개한다. 공부할 때는 직접 Builder를 구현해보겠지만 실무에서는 annotation을 이용해서 처리할 것이기 때문에 마지막 코드만 가지고도 활용은 가능할 것이다. ([최종버전](https://jsy1110.github.io/2022/Spring-JPA-YH-ex/))

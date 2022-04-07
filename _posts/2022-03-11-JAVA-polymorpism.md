@@ -3,8 +3,8 @@ title:  "[JAVA] 다형성(Polymorpism)"
 date:   2022-03-10
 categories: [post]
 tags:
-- post
-- dev
+- all
+- study
 - java
 ---
 ### 다형성(Polymorpism)?

@@ -3,9 +3,9 @@ title:  "[Github Page] Google Analytics로 블로그 방문자 관리하기"
 date:   2022-03-25 16:00:00 +0900
 categories: [post]
 tags:
+- all
 - post
 - blog
-- notion
 ---
 개인적인 스터디 용도로 만든 블로그지만 실제 블로그의 글을 보고 있는 사람이 있는지 궁금해졌다. 현재 사용중인 Jekyll-Uno 테마는 GA 설정을 쉽게 할 수 있도록 config를 제공하기 때문에 GA를 생성해서 테스트 적용시켜 보았다.
 

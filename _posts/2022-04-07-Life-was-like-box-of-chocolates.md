@@ -3,8 +3,8 @@ title:  "내 인생 선택의 순간들 (Life was like a box of chocolates)"
 date:   2022-04-07 23:00:00 +0900
 categories: [post]
 tags:
+- all
 - post
-- blog
 - article
 ---
 

@@ -3,8 +3,8 @@ title:  "[JAVA] 예외처리 (Exception handling)"
 date:   2022-03-15
 categories: [post]
 tags:
-- post
-- dev
+- all
+- study
 - java
 ---
 

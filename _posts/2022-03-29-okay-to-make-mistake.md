@@ -3,8 +3,8 @@ title:  "실수해도 괜찮아"
 date:   2022-03-28 23:00:00 +0900
 categories: [post]
 tags:
+- all
 - post
-- blog
 - article
 ---
 

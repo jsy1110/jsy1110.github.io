@@ -3,9 +3,10 @@ title:  "[이펙티브자바] 아이템2 - 빌더 패턴 (Builder pattern) feat.
 date:   2022-03-24 11:00:00 +0900
 categories: [post]
 tags:
+- all
 - study
-- spring
 - java
+- effective java
 ---
 이전 글에 설명한 것과 같이 아래의 코드는 결국 오류를 발생시키게 된다. 당장 눈에보이는 create 메서드에서는 builder를 통해 객체를 초기화 하기 때문에 오류가 없을지 몰라도 이후 Book 객체를 조회하는 로직이 추가되면 아래와 같은 오류를 발생시킨다.  참고로 해당 코드는 앞선 포스트에 이어 설명하기 위해 `@Builder` 대신 `@SuperBuilder` 를 사용한 예제를 사용한다.
 

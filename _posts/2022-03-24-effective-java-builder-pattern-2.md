@@ -3,9 +3,10 @@ title:  "[이펙티브자바] 아이템2 - 빌더 패턴 (Builder pattern) feat.
 date:   2022-03-24 02:00:00 +0900
 categories: [post]
 tags:
+- all
 - study
-- spring
 - java
+- effective java
 ---
 
 해당 글은 `이펙티브 자바 아이템 2 - 생성자에 매개변수가 많다면 빌더를 고려하라`에 나오는 빌더 패턴을 Lombok을 이용하여 최종 적용한 코드를 소개한다. 빌더 패턴에 대한 자세한 설명은 이전 [포스트](https://jsy1110.github.io/2022/effective-java-builder-pattern/)를 참고하면 된다.

@@ -3,8 +3,8 @@ title:  "[JAVA] 상속 개념 정리 (Overriding, Overloading, Interface)"
 date:   2022-02-24
 categories: [post]
 tags:
-- post
-- dev
+- all
+- study
 - java
 ---
 ### 오버로딩(Overloading)

@@ -3,10 +3,8 @@ title:  "소프트웨어 개발자에게 전공 지식이 필요한가? (B tree�
 date:   2022-02-21
 categories: [post]
 tags:
-- post
-- notion
-- dev
-- 잡설
+- all
+- article
 ---
 ## 잡설
 
