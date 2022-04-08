@@ -1,6 +1,6 @@
 # Site settings
 title: Zzi`s personal blog
-description: '공부, 이론, 실습 그리고 기록. 마지막은 생각'
+description: '공부, 이론, 실습 그리고 생각'
 baseurl: ''
 google_analytics: 'UA-223932880-1'
 disqus_shortname: 'jsy1110-github-io'
