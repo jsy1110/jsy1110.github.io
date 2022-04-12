@@ -9,7 +9,7 @@ tags:
 - effective java
 ---
 
-해당 글은 `이펙티브 자바 아이템 2 - 생성자에 매개변수가 많다면 빌더를 고려하라`에 나오는 빌더 패턴을 Lombok을 이용하여 최종 적용한 코드를 소개한다. 빌더 패턴에 대한 자세한 설명은 이전 [포스트](https://jsy1110.github.io/2022/effective-java-builder-pattern/)를 참고하면 된다.
+해당 글은 `이펙티브 자바 아이템 2 - 생성자에 매개변수가 많다면 빌더를 고려하라`에 나오는 빌더 패턴을 Lombok을 이용하여 최종 적용한 코드를 소개한다. 빌더 패턴에 대한 자세한 설명은 이전 [포스트](https://jsy1110.github.io/2022/effective-java-builder-pattern-1/)를 참고하면 된다.
 
 먼저 부모 클래스인 Item와 자식클래스인 Book에 `@SuperBuilder` annotation을 추가한다. 참고로 Item 클래스에서 categories 객체는 또다른 클래스인 Category 클래스와 N:N 관계를 갖는 객체로 해당 클래스에서 `new ArrayList<>()`로 직접 초기화를 하고 있다. 빌더 패턴의 경우 객체의 변수는 모두 빌더를 통해서 세팅되기 때문에 이를 피하기 위해서 해당 변수에는 `@Builder.Default` anntation을 추가해서 기본값 설정을 허용했다. 이렇게 annotation 추가만으로 아래 컨트롤러에서 사용한 것과 같이 빌더 패턴을 사용할 수 있다.
 
