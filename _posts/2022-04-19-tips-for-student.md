@@ -1,5 +1,5 @@
 ---
-title:  "대학생/교직원이 받을 수 있느 혜택들(Window, Office, Github, IntelliJ, Notion)"
+title:  "대학생/교직원이 받을 수 있는 혜택들(Window, Office, Github, IntelliJ, Notion)"
 date:   2022-04-19 23:00:00 +0900
 categories: [post]
 tags:
