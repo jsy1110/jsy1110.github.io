@@ -1,6 +1,6 @@
 ---
 title:  "소프트웨어 개발자에게 전공 지식이 필요한가? (B tree이야기) #1"
-date:   2022-02-21
+date:   2100-02-21
 categories: [post]
 tags:
 - all
