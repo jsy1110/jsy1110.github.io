@@ -1,6 +1,6 @@
 ---
 title:  "[AWS] 프리티어 과금사고 발생 (Elasti Cache - Redis) #1"
-date:   2022-05-13 09:00:00 +0900
+date:   2022-05-12 09:00:00 +0900
 categories: [post]
 tags:
 - all
@@ -16,11 +16,12 @@ tags:
 2. Redis 메모리 DB 사용으로 재고 관리의 신뢰성 확보 (Race condition issue 해결)
 3. Spring security를 활용한 로그인에서 Session 저장소로 활용
 
-기능 테스트 후에 어느정도 전체적인 통합 테스트를 할 수 있는 단계에 이르러서 현재 프리티어로 사용하고 있는 AWS 환경에 올려보기로 했는데 EC2 에서 자체적으로 Redis 를 설치해서 사용할 수도 있었지만 프리티어로 기능을 제공해주는 [Elasti Cache](https://aws.amazon.com/elasticache/) 로 연동해보고 싶은 욕심이 생겼다. 아래는 ElastiCache의 소개 문구이다. 프리티어 사용자는 아래 문구를 잘!! 봐야 한다. 프리티어 무료 해당 노드는 `cache.t2.micro 또는 cache.t3.micro 노드` 이다.
+기능 테스트 후에 어느정도 전체적인 통합 테스트를 할 수 있는 단계에 이르러서 현재 프리티어로 사용하고 있는 AWS 환경에 올려보기로 했는데 EC2 에서 자체적으로 Redis 를 설치해서 사용할 수도 있었지만 프리티어로 기능을 제공해주는 [Elasti Cache](https://aws.amazon.com/elasticache/) 로 연동해보고 싶은 욕심이 생겼다. 아래는 ElastiCache의 소개 문구이다. 프리티어 사용자는 아래 문구를 잘!! 봐야 한다. 프리티어 무료 해당 노드는 `cache.t2.micro 또는 cache.t3.micro 노드` 이다.  
 
-### 무료로 Amazon ElastiCache 시작
-
-AWS 프리 티어의 일부로 Amazon ElastiCache를 무료로 시작할 수 있습니다. 신규 AWS 고객은 가입 시 750시간의 ElastiCache `cache.t2.micro 또는 cache.t3.micro 노드` 사용량을 최대 12개월간 무료로 받습니다.
+***
+### *무료로 Amazon ElastiCache 시작*
+*AWS 프리 티어의 일부로 Amazon ElastiCache를 무료로 시작할 수 있습니다. 신규 AWS 고객은 가입 시 750시간의 ElastiCache `cache.t2.micro 또는 cache.t3.micro 노드` 사용량을 최대 12개월간 무료로 받습니다.*  
+* * *
 
 ### 사건 재현
 
