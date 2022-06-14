@@ -47,7 +47,7 @@ public enum Gender {
 
 ### 공통 처리를 위한 @interface 추가
 
-아래와 같은 인터페이스 어노테이션을 추가해준다. `@Constraint(validatedBy = EnumValidator.class)` 는 구체적인 validation 방법을 정의한 class 이다. 아래 인터페이스 어노테이션을 이용한 `@Enum` 을 통해 request를 validation 한다. `Class<? extends java.lang.Enum<?>> enumClass();` 우리가 정의한 Enum class를 파라미터로 넘길것이기 때문에 해당 코드를 유심히 봐두자.
+아래와 같은 인터페이스 어노테이션을 추가해준다. `@Constraint(validatedBy = EnumValidator.class)` 는 구체적인 validation 방법을 정의한 class 이다. 아래 인터페이스 어노테이션을 이용한 `@ValidEnum` 을 통해 request를 validation 한다. `Class<? extends java.lang.Enum<?>> enumClass();` 우리가 정의한 Enum class를 파라미터로 넘길것이기 때문에 해당 코드를 유심히 봐두자.
 
 ```java
 @Constraint(validatedBy = EnumValidator.class)
