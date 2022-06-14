@@ -8,7 +8,14 @@ tags:
 - lecture
 - spring
 ---
-스프링에서 @Validated (순수 JAVA의 @Valid) 어노테이션은 MVC 패턴에서 클라이언트의 Request의 값을 손쉽게 validation 할 수 있도록 도와준다. JAVA에서 제공하는 원시타입(Primitive type)의 경우 @NotBlank, @NotNull, @Email 등을 통해 일반적으로 예상되는 validation을 기본적으로 지원한다. 하지만 개발자가 직접 정의한 Enum class의 경우는 Validation 방법 또한 개발자가 직접 추가해야한다.
+스프링에서 @Validated (순수 JAVA의 @Valid) 어노테이션은 MVC 패턴에서 클라이언트의 Request의 값을 손쉽게 validation 할 수 있도록 도와준다. 
+```java
+public ResponseDto updateUser(@RequestBody @Valided UserUpdateRequest updateRequest) {
+    
+}
+```
+
+JAVA에서 제공하는 원시타입(Primitive type)의 경우 @NotBlank, @NotNull, @Email 등을 통해 일반적으로 예상되는 validation을 기본적으로 지원한다. 하지만 개발자가 직접 정의한 Enum class의 경우는 Validation 방법 또한 개발자가 직접 추가해야한다.
 
 아래의 코드를 살펴보면 username과 age의 경우는 javax 의 validation 기능을 사용하면 된다. 하지만 Gender 의 값은 어떻게 Validation 해야할까? 아래의 경우 gender 값은 MEN or WOMEN 이외에는 들어올 수 없으므로 exception 처리를 해야한다.
 
