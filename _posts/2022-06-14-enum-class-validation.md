@@ -1,6 +1,6 @@
 ---
 title:  "[Spring Boot] JAVA Enum 클래스 Validation 방법"
-date:   2022-05-14 16:00:00 +0900
+date:   2022-06-14 16:00:00 +0900
 categories: [post]
 tags:
 - all
