@@ -12,7 +12,7 @@ tags:
 
 로버트 C. 마틴 저/송준이 역 | 인사이트(insight) | 2019년 08월 20일
 
-![image](https://github.com/jsy1110/jsy1110.github.io/assets/6336815/e8e7ffd1-0314-421c-9c03-e1f9acab14c8)
+![image](https://github-production-user-asset-6210df.s3.amazonaws.com/6336815/320603642-4257c97c-28f1-4894-9ef7-0b3d78010e50.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240408%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240408T180230Z&X-Amz-Expires=300&X-Amz-Signature=7377953e656f7f10ffd5c9949b15e1e3992f71ad347932b26ec239dd7ca5f696&X-Amz-SignedHeaders=host&actor_id=6336815&key_id=0&repo_id=459874319)
 
 
 최근 1~2년 간 모놀리식의 시스템에서 신규 마이크로 서비스들을 분리해내는 프로젝트를 연속으로 진행하였다. MSA 기반의 시스템에서 개발을 하다보니 그동안 가지고 있었던 개발 철학이 많은 부분 바뀌게 되었다. 이전에 이 책을 읽었을 때는 MSA에 대한 경험이 부족한 상태에서 이론적인 지식을 얻었다면, 이번에 이 책을 다시 읽으면서는 그 동안 MSA 개발을 하면서 어렴풋이 `잘못 됐다` `이상하다` 라고 느꼈던 부분들에 대해 `왜` 라는 이유를 조금은 더 구체화하는 기회가 되었다.
@@ -35,6 +35,6 @@ tags:
 
 ### 패션은 사라지지만 스타일은 그대로 남는다
 
-![image](https://github.com/jsy1110/jsy1110.github.io/assets/6336815/2ff5096a-2b0a-410e-93af-3b671e7ad587)
+![image](https://github-production-user-asset-6210df.s3.amazonaws.com/6336815/320591881-2ff5096a-2b0a-410e-93af-3b671e7ad587.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240408%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240408T175749Z&X-Amz-Expires=300&X-Amz-Signature=10549a696c464bdf83b268898a40eda42a8efce83037e6ad6fa86f83e65da08e&X-Amz-SignedHeaders=host&actor_id=6336815&key_id=0&repo_id=459874319)
 
 사실 위의 내용들은 이전에 이 책을 읽었을 때는 크게 신경을 쓰지 않았고, 기억에 남아 있지도 않았다. 책을 읽으면서 이런 부분이 있었나? 하고 새로운 책을 읽는 기분이었다. 그런데 나의 경험이 쌓이고 나서 읽었을 때 그동안 보이지 않던 부분이 비로소 보이기 시작했다. 여기 적은 내용 외에도 그 동안 경험적으로, 관성적으로 다른 코드들을 모방하면서 개발했던 부분들이 실제로 좋은 아키텍쳐가 될 수 있는 이유를 명확하게 알 수 있었다. 이러한 이유로 당분간 개발 기본서 읽기는 지속될 것 같다.
