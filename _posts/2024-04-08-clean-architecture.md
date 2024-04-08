@@ -35,6 +35,7 @@ tags:
 
 ### 패션은 사라지지만 스타일은 그대로 남는다
 
-![image](https://github-production-user-asset-6210df.s3.amazonaws.com/6336815/320591881-2ff5096a-2b0a-410e-93af-3b671e7ad587.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240408%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240408T175749Z&X-Amz-Expires=300&X-Amz-Signature=10549a696c464bdf83b268898a40eda42a8efce83037e6ad6fa86f83e65da08e&X-Amz-SignedHeaders=host&actor_id=6336815&key_id=0&repo_id=459874319)
+![image](https://github-production-user-asset-6210df.s3.amazonaws.com/6336815/320605579-de165f7b-71ce-4c89-aafe-79d02c3df3ee.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240408%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240408T180657Z&X-Amz-Expires=300&X-Amz-Signature=4789a3db22e6c3d025fe92e5bb96fe6c323d72e46a97b45b4b088931e61a2513&X-Amz-SignedHeaders=host&actor_id=6336815&key_id=0&repo_id=459874319)
+
 
 사실 위의 내용들은 이전에 이 책을 읽었을 때는 크게 신경을 쓰지 않았고, 기억에 남아 있지도 않았다. 책을 읽으면서 이런 부분이 있었나? 하고 새로운 책을 읽는 기분이었다. 그런데 나의 경험이 쌓이고 나서 읽었을 때 그동안 보이지 않던 부분이 비로소 보이기 시작했다. 여기 적은 내용 외에도 그 동안 경험적으로, 관성적으로 다른 코드들을 모방하면서 개발했던 부분들이 실제로 좋은 아키텍쳐가 될 수 있는 이유를 명확하게 알 수 있었다. 이러한 이유로 당분간 개발 기본서 읽기는 지속될 것 같다.
