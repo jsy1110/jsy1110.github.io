@@ -10,9 +10,9 @@ tags:
 
 ### 같은 책을 두번 읽는 이유
 
-로버트 C. 마틴 저/송준이 역 | 인사이트(insight) | 2019년 08월 20일 | 원제 : Clean Architecture: A Craftsman’s Guide to Software Structure and Design
+로버트 C. 마틴 저/송준이 역 | 인사이트(insight) | 2019년 08월 20일
 
-![image](https://github.com/jsy1110/jsy1110.github.io/assets/6336815/546b478a-bbbb-4fb7-a569-3f78feffcb6d)
+![image](https://github.com/jsy1110/jsy1110.github.io/assets/6336815/e8e7ffd1-0314-421c-9c03-e1f9acab14c8)
 
 
 최근 1~2년 간 모놀리식의 시스템에서 신규 마이크로 서비스들을 분리해내는 프로젝트를 연속으로 진행하였다. MSA 기반의 시스템에서 개발을 하다보니 그동안 가지고 있었던 개발 철학이 많은 부분 바뀌게 되었다. 이전에 이 책을 읽었을 때는 MSA에 대한 경험이 부족한 상태에서 이론적인 지식을 얻었다면, 이번에 이 책을 다시 읽으면서는 그 동안 MSA 개발을 하면서 어렴풋이 `잘못 됐다` `이상하다` 라고 느꼈던 부분들에 대해 `왜` 라는 이유를 조금은 더 구체화하는 기회가 되었다.
