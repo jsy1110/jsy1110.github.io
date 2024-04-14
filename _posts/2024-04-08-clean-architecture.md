@@ -10,7 +10,7 @@ tags:
 
 ### 같은 책을 두번 읽는 이유
 
-로버트 C. 마틴 저/송준이 역 | 인사이트(insight) | 2019년 08월 20일
+로버트 C. 마틴 저/송준이 역 | 인사이트(insight)
 
 
 ![image](/assets/2024-04-08-clean-architecture/image1.png)
